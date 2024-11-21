@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C872E2412CEEF49B00D5889F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C872E2282CEEF49A00D5889F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C872E22F2CEEF49A00D5889F;
+			remoteInfo = "Portal To The Past";
+		};
+		C872E24B2CEEF49B00D5889F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C872E2282CEEF49A00D5889F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C872E22F2CEEF49A00D5889F;
+			remoteInfo = "Portal To The Past";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C872E2302CEEF49A00D5889F /* Portal To The Past.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portal To The Past.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C872E2402CEEF49B00D5889F /* Portal To The PastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portal To The PastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C872E24A2CEEF49B00D5889F /* Portal To The PastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portal To The PastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C872E2322CEEF49A00D5889F /* Portal To The Past */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Portal To The Past";
+			sourceTree = "<group>";
+		};
+		C872E2432CEEF49B00D5889F /* Portal To The PastTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Portal To The PastTests";
+			sourceTree = "<group>";
+		};
+		C872E24D2CEEF49B00D5889F /* Portal To The PastUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Portal To The PastUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C872E22D2CEEF49A00D5889F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E23D2CEEF49B00D5889F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E2472CEEF49B00D5889F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C872E2272CEEF49A00D5889F = {
+			isa = PBXGroup;
+			children = (
+				C872E2322CEEF49A00D5889F /* Portal To The Past */,
+				C872E2432CEEF49B00D5889F /* Portal To The PastTests */,
+				C872E24D2CEEF49B00D5889F /* Portal To The PastUITests */,
+				C872E2312CEEF49A00D5889F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C872E2312CEEF49A00D5889F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C872E2302CEEF49A00D5889F /* Portal To The Past.app */,
+				C872E2402CEEF49B00D5889F /* Portal To The PastTests.xctest */,
+				C872E24A2CEEF49B00D5889F /* Portal To The PastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C872E22F2CEEF49A00D5889F /* Portal To The Past */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C872E2542CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The Past" */;
+			buildPhases = (
+				C872E22C2CEEF49A00D5889F /* Sources */,
+				C872E22D2CEEF49A00D5889F /* Frameworks */,
+				C872E22E2CEEF49A00D5889F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C872E2322CEEF49A00D5889F /* Portal To The Past */,
+			);
+			name = "Portal To The Past";
+			packageProductDependencies = (
+			);
+			productName = "Portal To The Past";
+			productReference = C872E2302CEEF49A00D5889F /* Portal To The Past.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C872E23F2CEEF49B00D5889F /* Portal To The PastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C872E2572CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The PastTests" */;
+			buildPhases = (
+				C872E23C2CEEF49B00D5889F /* Sources */,
+				C872E23D2CEEF49B00D5889F /* Frameworks */,
+				C872E23E2CEEF49B00D5889F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C872E2422CEEF49B00D5889F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C872E2432CEEF49B00D5889F /* Portal To The PastTests */,
+			);
+			name = "Portal To The PastTests";
+			packageProductDependencies = (
+			);
+			productName = "Portal To The PastTests";
+			productReference = C872E2402CEEF49B00D5889F /* Portal To The PastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C872E2492CEEF49B00D5889F /* Portal To The PastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C872E25A2CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The PastUITests" */;
+			buildPhases = (
+				C872E2462CEEF49B00D5889F /* Sources */,
+				C872E2472CEEF49B00D5889F /* Frameworks */,
+				C872E2482CEEF49B00D5889F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C872E24C2CEEF49B00D5889F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C872E24D2CEEF49B00D5889F /* Portal To The PastUITests */,
+			);
+			name = "Portal To The PastUITests";
+			packageProductDependencies = (
+			);
+			productName = "Portal To The PastUITests";
+			productReference = C872E24A2CEEF49B00D5889F /* Portal To The PastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C872E2282CEEF49A00D5889F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					C872E22F2CEEF49A00D5889F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					C872E23F2CEEF49B00D5889F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C872E22F2CEEF49A00D5889F;
+					};
+					C872E2492CEEF49B00D5889F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C872E22F2CEEF49A00D5889F;
+					};
+				};
+			};
+			buildConfigurationList = C872E22B2CEEF49A00D5889F /* Build configuration list for PBXProject "Portal To The Past" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C872E2272CEEF49A00D5889F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C872E2312CEEF49A00D5889F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C872E22F2CEEF49A00D5889F /* Portal To The Past */,
+				C872E23F2CEEF49B00D5889F /* Portal To The PastTests */,
+				C872E2492CEEF49B00D5889F /* Portal To The PastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C872E22E2CEEF49A00D5889F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E23E2CEEF49B00D5889F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E2482CEEF49B00D5889F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C872E22C2CEEF49A00D5889F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E23C2CEEF49B00D5889F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872E2462CEEF49B00D5889F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C872E2422CEEF49B00D5889F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C872E22F2CEEF49A00D5889F /* Portal To The Past */;
+			targetProxy = C872E2412CEEF49B00D5889F /* PBXContainerItemProxy */;
+		};
+		C872E24C2CEEF49B00D5889F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C872E22F2CEEF49A00D5889F /* Portal To The Past */;
+			targetProxy = C872E24B2CEEF49B00D5889F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C872E2522CEEF49B00D5889F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C872E2532CEEF49B00D5889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C872E2552CEEF49B00D5889F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portal To The Past/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-Past";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C872E2562CEEF49B00D5889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portal To The Past/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-Past";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C872E2582CEEF49B00D5889F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-PastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portal To The Past.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portal To The Past";
+			};
+			name = Debug;
+		};
+		C872E2592CEEF49B00D5889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-PastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portal To The Past.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portal To The Past";
+			};
+			name = Release;
+		};
+		C872E25B2CEEF49B00D5889F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-PastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Portal To The Past";
+			};
+			name = Debug;
+		};
+		C872E25C2CEEF49B00D5889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireWang.Portal-To-The-PastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Portal To The Past";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C872E22B2CEEF49A00D5889F /* Build configuration list for PBXProject "Portal To The Past" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C872E2522CEEF49B00D5889F /* Debug */,
+				C872E2532CEEF49B00D5889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C872E2542CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The Past" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C872E2552CEEF49B00D5889F /* Debug */,
+				C872E2562CEEF49B00D5889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C872E2572CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The PastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C872E2582CEEF49B00D5889F /* Debug */,
+				C872E2592CEEF49B00D5889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C872E25A2CEEF49B00D5889F /* Build configuration list for PBXNativeTarget "Portal To The PastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C872E25B2CEEF49B00D5889F /* Debug */,
+				C872E25C2CEEF49B00D5889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C872E2282CEEF49A00D5889F /* Project object */;
+}
