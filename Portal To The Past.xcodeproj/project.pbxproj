@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8C9454B2CF1096900253227 /* level1_decay.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C9454A2CF1096900253227 /* level1_decay.png */; };
+		C8C9454D2CF1098100253227 /* level1_original.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C9454C2CF1098100253227 /* level1_original.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C872E2412CEEF49B00D5889F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		C872E2302CEEF49A00D5889F /* Portal To The Past.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portal To The Past.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C872E2402CEEF49B00D5889F /* Portal To The PastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portal To The PastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C872E24A2CEEF49B00D5889F /* Portal To The PastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portal To The PastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C9454A2CF1096900253227 /* level1_decay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level1_decay.png; path = "Portal To The Past/Assets.xcassets/Models/level1_decay.textureset/Universal.mipmapset/level1_decay.png"; sourceTree = "<group>"; };
+		C8C9454C2CF1098100253227 /* level1_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level1_original.png; path = "Portal To The Past/Assets.xcassets/Models/level1_original.textureset/Universal.mipmapset/level1_original.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		C872E2272CEEF49A00D5889F = {
 			isa = PBXGroup;
 			children = (
+				C8C9454C2CF1098100253227 /* level1_original.png */,
+				C8C9454A2CF1096900253227 /* level1_decay.png */,
 				C872E2322CEEF49A00D5889F /* Portal To The Past */,
 				C872E2432CEEF49B00D5889F /* Portal To The PastTests */,
 				C872E24D2CEEF49B00D5889F /* Portal To The PastUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C9454D2CF1098100253227 /* level1_original.png in Resources */,
+				C8C9454B2CF1096900253227 /* level1_decay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portal To The Past/Preview Content\"";
+				DEVELOPMENT_TEAM = K75G8H5HWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portal To The Past/Preview Content\"";
+				DEVELOPMENT_TEAM = K75G8H5HWP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
